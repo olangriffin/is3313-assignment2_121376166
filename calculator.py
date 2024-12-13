@@ -18,10 +18,10 @@ class Calculator:
         """Divides the first number by the second and returns the result.
         Raises a ValueError if the second number is zero.
         """
-        result = a / b
         if b == 0:
             raise ValueError("Cannot divide by zero.")
         else:
+            result = a / b
             return result
 
     def power(self, base, exponent):
