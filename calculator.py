@@ -21,7 +21,8 @@ class Calculator:
         result = a / b
         if b == 0:
             raise ValueError("Cannot divide by zero.")
-        return result
+        else:
+            return result
 
     def power(self, base, exponent):
         """Raises the base to the power of the exponent and returns the result."""
